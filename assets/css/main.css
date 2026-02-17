@@ -1,0 +1,75 @@
+body {
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+main {
+  display: flex;
+}
+
+#left-menu {
+  flex: 0 0 150px;
+}
+
+#content {
+  flex-grow: 1;
+}
+
+ul li {
+  list-style: none;
+}
+
+div {
+  border: 1px dotted gray;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th:nth-child(-n+4), td:nth-child(-n+4) {
+  width: 150px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+.selected-menu {
+  font-weight: bold;
+}
+
+.letter {
+  /* width: 150px; removed to use table cell sizing instead */
+}
+
+.letter-am {
+  font-weight: bold;
+}
+
+.letter-ru {
+  font-weight: bold;
+}
+
+.letter-name {
+
+}
+
+.letter-description {
+  width: auto;
+  overflow-wrap: break-word;
+}
