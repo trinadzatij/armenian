@@ -228,11 +228,11 @@
       "name": "Ца",
       "capital": {
         "letter": "Ц",
-        "transcription": "Ц"
+        "transcription": "Ц'"
       },
       "lowercase": {
         "letter": "ц",
-        "transcription": "ц"
+        "transcription": "ц'"
       },
       "description": "Глухая Ц. Среднее между Ц и Т, смягчённая русская Т в слове \"тень\""
     }
@@ -550,12 +550,12 @@
     "ru": {
       "name": "Цо",
       "capital": {
-        "letter": "Ц'",
-        "transcription": "Ц'"
+        "letter": "Ц",
+        "transcription": "Ц"
       },
       "lowercase": {
-        "letter": "ц'",
-        "transcription": "ц'"
+        "letter": "ц",
+        "transcription": "ц"
       },
       "description": "Как русская Ц"
     }
